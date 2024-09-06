@@ -1,0 +1,12 @@
+[package]
+name = "ostd"
+version = "0.1.0"
+edition = "2021"
+
+[workspace.lints.clippy]
+pedantic = "warn"
+all = "warn"
+
+[dependencies]
+x86_64 = { path = "../crates/coquelicot-x86_64", package = "coquelicot-x86_64" }
+sync = { path = "../crates/coquelicot-sync", package = "coquelicot-sync" }

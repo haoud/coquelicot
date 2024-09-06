@@ -1,0 +1,11 @@
+[package]
+name = "kernel"
+version = "0.1.0"
+edition = "2021"
+
+[workspace.lints.clippy]
+pedantic = "warn"
+all = "warn"
+
+[dependencies]
+ostd = { path = "../ostd" }

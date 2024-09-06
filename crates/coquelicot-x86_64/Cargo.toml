@@ -1,0 +1,11 @@
+[package]
+name = "coquelicot-x86_64"
+version = "0.1.0"
+edition = "2021"
+
+[lints.clippy]
+pedantic = "warn"
+all = "warn"
+
+[dependencies]
+bitflags = "2.6.0"
